@@ -1,0 +1,44 @@
+﻿@model EstudiantesAPP.Transporte.EstudianteDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2 class="text-info">Creación de Estudiante</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="Nombres" class="control-label"></label>
+                <input asp-for="Nombres" class="form-control" />
+                <span asp-validation-for="Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellidos" class="control-label"></label>
+                <input asp-for="Apellidos" class="form-control" />
+                <span asp-validation-for="Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaInscripcion" class="control-label"></label>
+                <input asp-for="FechaInscripcion" type="date" class="form-control" />
+                <span asp-validation-for="FechaInscripcion" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="submit" value="Create" class="btn btn-primary form-control" />
+                    </div>
+                    <div class="col-sm-6">
+                        <a asp-action="Index" class="btn btn-success form-control">Regresar</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
