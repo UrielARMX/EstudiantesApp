@@ -1,12 +1,16 @@
 ﻿using EstudiantesAPP.Dominio.IServices;
 using EstudiantesAPP.Servicios.Services;
 using EstudiantesAPP.Transporte;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
 namespace EstudiantesApp.Controllers
 {
+    [Authorize]
     public class EstudianteController : Controller
     {
         private readonly IEstudianteService _IEstudianteService;
@@ -20,6 +24,12 @@ namespace EstudiantesApp.Controllers
         {
             var estudiantes = await _IEstudianteService.ConsultaEstudiantes();
             return View(estudiantes);
+        }
+
+        public async Task<IActionResult> Salir()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index","Home");
         }
 
         // GET: EstudianteController/Details/5

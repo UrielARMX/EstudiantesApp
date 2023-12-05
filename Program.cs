@@ -3,6 +3,7 @@ using EstudiantesAPP.Dominio.IServices;
 using EstudiantesAPP.Persistencia.Context;
 using EstudiantesAPP.Persistencia.Repositories;
 using EstudiantesAPP.Servicios.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AplicationDBContext>
     (option => option.UseSqlServer(builder.Configuration.GetConnectionString("Conexion")));
-
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
+{
+    option.LoginPath = "/Login/Enter";
+});
 builder.Services.AddScoped<IEstudianteRepository, EstudianteRepository>();
 builder.Services.AddScoped<IEstudianteService, EstudianteService>();
 
@@ -25,6 +29,8 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
