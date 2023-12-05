@@ -5,60 +5,73 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EstudiantesAPP
 build_property.RootNamespace = EstudiantesAPP
-build_property.ProjectDir = C:\Users\CUSTOM\source\repos\EstudiantesApp\
+build_property.ProjectDir = C:\Users\agustin\Desktop\EstudiantesApp\EstudiantesApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\CUSTOM\source\repos\EstudiantesApp
+build_property.MSBuildProjectDirectory = C:\Users\agustin\Desktop\EstudiantesApp\EstudiantesApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Estudiante/Create.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Estudiante/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Estudiante/Delete.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Estudiante/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Estudiante/Details.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Estudiante/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Estudiante/Edit.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Estudiante/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Estudiante/Index.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Estudiante/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Home/Index.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Home/Privacy.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Shared/Error.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Login/Enter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRW50ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Shared/_LayoutEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFc3R1ZGlhbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/_ViewImports.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/_ViewStart.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CUSTOM/source/repos/EstudiantesApp/Views/Shared/_Layout.cshtml]
+[C:/Users/agustin/Desktop/EstudiantesApp/EstudiantesApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7yk8744bxe

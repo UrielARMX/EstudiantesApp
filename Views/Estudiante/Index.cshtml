@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
 }
 
 <h2 class="text-info">Lista de estudiantes</h2>
@@ -25,7 +26,7 @@
 <!-- /warnig-->
 
 <p>
-    <a asp-action="Create">Crear un nuevo estudiante</a>
+    <a class="btn btn-success" asp-action="Create">Crear un nuevo estudiante</a>
 </p>
 @if (Model.Count()>0)
 {
